@@ -1,0 +1,46 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    background-color: beige;
+    height: 90vh;
+}
+
+table, td, th {
+    border-top: 1px solid;
+    border-collapse: collapse;
+    border-color: #ddd;
+
+}
+
+table {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td,th {
+    padding: 12px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: wheat;
+    font-size: 20px;
+}
+
+caption {
+    background-color: orange;
+    width: 36%;
+    padding: 13px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+
+tr:hover {
+    background-color: darkgray;
+}
